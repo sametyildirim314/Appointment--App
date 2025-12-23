@@ -10,7 +10,7 @@
 
 ## ✨ Features
 
-### For Customer
+### For Customers
 - 📅 Browse available salons and services
 - 🕐 Book appointments with preferred time slots
 - 👤 Create and manage personal profile
