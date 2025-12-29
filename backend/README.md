@@ -14,23 +14,7 @@ npm install
 
 `.env.example` dosyasını `.env` olarak kopyalayın ve veritabanı bilgilerinizi girin:
 
-```bash
-cp .env.example .env
-```
 
-`.env` dosyasını düzenleyin:
-
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=your_password
-DB_NAME=kuafor_randevu
-DB_PORT=3306
-
-JWT_SECRET=your_super_secret_jwt_key_change_this
-PORT=3000
-CORS_ORIGIN=http://localhost
-```
 
 ### 3. Veritabanını Oluşturun
 
@@ -164,16 +148,6 @@ const [rows] = await pool.execute(
 );
 ```
 
-## Sorun Giderme
-
-### MySQL Bağlantı Hatası
-- `.env` dosyasındaki veritabanı bilgilerini kontrol edin
-- MySQL servisinin çalıştığından emin olun
-- Veritabanının oluşturulduğunu kontrol edin
-
-### Port Zaten Kullanılıyor
-- `.env` dosyasında farklı bir PORT değeri kullanın
-- Veya kullanan process'i durdurun
 
 ### CORS Hatası
 - `.env` dosyasında `CORS_ORIGIN` değerini Flutter uygulamanızın adresi ile güncelleyin
