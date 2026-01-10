@@ -1,4 +1,4 @@
-# 💇 Salon Appointment System
+Appointment System
 
 
 
